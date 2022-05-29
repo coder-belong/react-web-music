@@ -3,18 +3,32 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@craco/craco": "^6.4.3",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "antd": "^4.20.4",
+    "axios": "^0.27.2",
+    "immutable": "^4.1.0",
+    "moment": "^2.29.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-redux": "^8.0.1",
+    "react-router-config": "^5.1.1",
+    "react-router-dom": "5.2",
     "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "redux-immutable": "^4.0.0",
+    "redux-thunk": "^2.4.1",
+    "style-component": "^0.0.1",
+    "styled-components": "^5.3.5",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +48,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "./"
 }
